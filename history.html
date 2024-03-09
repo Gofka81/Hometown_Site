@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Tour Guides Liubomyr</title>
+    <title> Tour Guide Liubomyr</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Town Website</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -12,43 +11,87 @@
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Open+Sans">
 
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 <body>
 
-<header>
-  <div class="title">
-    <img>
-    <h1 class="page title_heading">
-      <a href="index.html" class="title_heading_link">
-        Tour guides</a></h1>
-
-  </div>
-    <nav class="nav">
-        <ul class="page nav_menu">
-          <li class="nav_menu_item">
-            <a href="index.html" class="nav_menu_link">
-              Home</a></li>
-          <li class="nav_menu_item">
-            <a href="history.html" class="nav_menu_link active">
-              History</a></li>
-          <li class="nav_menu_item">
-            <a href="visit.html" class="nav_menu_link">
-              Visit</a></li>
-          </ul>
+<header class="header", id="header">
+    <div class="title">
+        <img src="images/logo.png" alt="Drohobych Logo">
+        <h1 class="page title_heading">
+        <a href="index.html" class="title_heading_link">
+            Drohobych Tour guide</a></h1>
     
-    </nav>
+    </div>
+        <nav class="nav">
+            <ul class="page nav_menu">
+            <li class="nav_menu_item">
+                <a href="index.html" class="nav_menu_link active">
+                Home</a></li>
+            <li class="nav_menu_item">
+                <a href="history.html" class="nav_menu_link">
+                History</a></li>
+            <li class="nav_menu_item">
+                <a href="visit.html" class="nav_menu_link">
+                Visit</a></li>
+            </ul>
+        
+        </nav>
+    
 </header>
 
-<footer>
-    <p>&copy; 2024 Liubomyr Antonyk</p>
-    <p>Start your adventure in Drohobych today!</p>
-</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/index.js"></script>
-
-</body>
-</html>
+<footer class="footer">
+    <div class="container">
+      <section class="mt-5">
+        <div class="row text-center d-flex justify-content-center pt-5">
+  
+          <div class="col-md-1">
+            <h6 class="footer_item">
+              <a href="index.html" class="footer_text">Home</a>
+            </h6>
+          </div>
+  
+          <div class="col-md-1">
+            <h6 class="footer_item">
+              <a href="#header" class="footer_text">History</a>
+            </h6>
+          </div>
+  
+          <div class="col-md-1">
+            <h6 class="footer_item">
+              <a href="visit.html" class="footer_text">Visit</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+  
+      <hr class="my-5" />
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Thank you for visiting Drohobych Tour Guides.
+            </p>
+            <p>
+              Explore the rich history, culture, and beauty of Drohobych, Ukraine. Contact us for guided tours, travel tips, and more. Stay connected with us on social media for updates and special offers.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2024 Copyright: Liubomyr Antonyk
+    </div>
+  </footer>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  
+  </body>
+  </html>
