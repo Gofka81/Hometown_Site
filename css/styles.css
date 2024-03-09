@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* Page */
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .page {max-width: 960px;}
+}
+
+/* Header */
+
+.header {
+  font-size: 0;
+  text-align: center;
+}
+
+/* Title */
+
+.title {background: #6b6bcd;}
+
+.title_heading {font: bold 24px / 1.5 'Montserrat', sans-serif;}
+
+.title_heading_link {
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* Navigation */
+
+.nav {background: #000000;}
+
+.nav_menu {}
+
+.nav_menu_item {
+  display: block;
+  font: 16px / 1.5 'Montserrat', sans-serif;
+}
+
+.nav_menu_link {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: color 0.25s;
+}
+
+.nav_menu_link:hover,
+.nav_menu_link:active,
+.nav_menu_link.active {color: #9F9FDF;}
+
+@media (min-width: 480px) {
+  .nav_menu_item {display: inline-block;}
+}
+
+/* Banner */
+
+.banner {
+  text-align: center;
+  background: url('../images/banner.jpeg') no-repeat 75% 50% / cover fixed;
+}
+
+.banner_container-1 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100vh;
+  padding: 16px;
+}
+
+.banner_container-2 {
+  border-radius: 8px;
+  padding: 48px 0;
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.banner_section {padding: 8px;}
+
+.banner_heading {
+  padding: 8px;
+  font: bold 32px / 1.5 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+
+.banner_subheading {
+  padding: 8px;
+  font: 16px / 1.5 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+
+.banner_button {
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.banner_button_link {
+  display: block;
+  border-radius: 28px;
+  padding: 16px;
+  font: bold 16px / 1.5 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background: #FFBF00;
+  transition: background 0.25s;
+}
+
+.banner_button_link:hover,
+.banner_button_link:active {background: #FFFFFF;}
+
+@media (min-width: 480px) {
+
+  .banner_heading {font-size: 48px;}
+
+  .banner_button {width: 50%;}
+
+}
+
+/* Main */
+
+.main {
+  display: block;
+  background: #EFEFEF;
+}
+
+.main_container {padding: 32px 0;}
+
+.main_section {padding: 24px 8px;}
+
+.main_heading {
+  padding: 8px;
+  font: bold 24px / 1.5 'Montserrat', sans-serif;
+  text-align: left;
+  color: #000000;
+}
+
+.main_subheading {
+  padding: 8px;
+  font: 16px / 1.5 'Montserrat', sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+.main_subheading_link {
+  color: #4040BF;
+  transition: color 0.25s;
+}
+
+.main_subheading_link:hover,
+.main_subheading_link:active {color: #000000;}
+
+.main_text {
+  padding: 8px;
+  font: 16px / 1.5 'Open Sans', sans-serif;
+  text-align: left;
+  color: #404040;
+}
+
+.main_figure {padding: 8px;}
+
+.main_figure_image {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer */
+
+.footer {background: #4040BF;}
+
+.footer_text {
+  padding: 16px;
+  font: 16px / 1.5 'Open Sans', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+}
