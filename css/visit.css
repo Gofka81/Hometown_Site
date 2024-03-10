@@ -1,0 +1,46 @@
+.visit-card {
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    padding-bottom: calc(100% / 1.5); /* Aspect ratio 3:2 */
+}
+
+.visit-card img {
+    transition: transform 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+.visit-card:hover img {
+    transform: scale(1.1);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s;
+}
+.visit-card:hover .overlay {
+    opacity: 1;
+}
+.overlay-content {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.overlay-content h5{
+    text-align: center;
+}
