@@ -18,27 +18,32 @@
 <body>
 
 <header class="header", id="header">
-    <div class="title">
+  <div class="title">
+    <h1 class="page title_heading">
+      <a class="navbar-brand" href="index.html">
         <img src="images/logo.png" alt="Drohobych Logo">
-        <h1 class="page title_heading">
-        <a href="index.html" class="title_heading_link">
-            Drohobych Tour guide</a></h1>
-    
+        Drohobych Tour guide
+      </a>
+      </h1>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand nav_menu_item" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item nav_menu_item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item nav_menu_item">
+            <a class="nav-link" href="visit.html">Visit</a>
+          </li>
+        </ul>
+      </div>
     </div>
-        <nav class="nav">
-            <ul class="page nav_menu">
-            <li class="nav_menu_item">
-                <a href="index.html" class="nav_menu_link">
-                Home</a></li>
-            <li class="nav_menu_item">
-                <a href="history.html" class="nav_menu_link">
-                History</a></li>
-            <li class="nav_menu_item">
-                <a href="visit.html" class="nav_menu_link active">
-                Visit</a></li>
-            </ul>
-        
-        </nav>
+  </nav>
     
 </header>
 
